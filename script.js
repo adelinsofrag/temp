@@ -8,6 +8,11 @@ const data = [
 
 const multiplier = data[4];
 
-for (let i; i < multiplier.length; i++) {
-  console.log("i:", i);
+// number to be multiplied
+const multiplyBy = prompt();
+
+for (let i = 0; i <= multiplier.length; i++) {
+  const message = multiplyBy + "*" + i + " = " + multiplyBy * i;
+
+  console.log(message);
 }
